@@ -9,14 +9,72 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-
 <body>
+    <!-- header setpu -->
     <header>
         <h1 class="text-5xl text-center mt-16">Self-Income-Management <br> <span
                 class="font-bold text-purple-600">Assignment-5-TR</h1>
     </header>
+    <!-- main section  -->
+    <main>
+        <!-- image setup  -->
+        <section class="grid gap-8 grid-cols-2 grid-rows-2 mt-16 mr-8">
+            <div class="border-2 flex justify-center">
+                <img src="/Images/self-salary.jpg" alt="">
+            </div>
 
-    <p>calculating my salary expense</p>
+            <!-- clumn2 salary part expense  -->
+            <div class="border-2">
+                <h1 class="text-5xl text-center mt-4">Income</h1>
+                <h1 class="text-2xl border-4 text-center mt-8 bg-purple-100">SALARY: <br> <input type="" name="" id="">
+                </h1>
+                <!-- Expense of salary part  -->
+                <form class="text-xl grid-cols-1 bg-gray-100 p-4 w-3/4 mx-auto mt-8">
+                    <table class="table-auto mx-auto">
+                        <h1 class="text-3xl text-center font-bold">Expenses</h1>
+
+                        <thead>
+                            <tr class="bg-black text-white">
+                                <th>Prpoerties</th>
+                                <th>Amount</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-left">
+                            <tr>
+                                <td>Food</td>
+                                <td> <input type="number" name="" id=""></td>
+                            </tr>
+                            <tr>
+                                <td>House Rent</td>
+                                <td> <input type="number" name="" id=""></td>
+
+                            </tr>
+                            <tr>
+                                <td>Clothes</td>
+                                <td> <input type="number" name="" id=""></td>
+
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- calculation button  -->
+                    <div class="flex justify-center">
+                        <button class="btn p-2 bg-purple-100">Calculate</button>
+                    </div>
+                    <h1 class="border-4 flex justify-center">Total Expense: <input id=""> </h1>
+
+                    <h1 class="border-4 flex justify-center font-bold">Balance: <input id=""> </h1>
+
+                    <!-- save 10% for future -->
+                    <h1 class="border-4 font-bold flex justify-center">Save 10% Tk.: <input id=""> <button
+                            class="bg-purple-100">Save</button></h1>
+
+                    <!-- remaining salary after all expenses -->
+                    <h1 class="border-4 flex justify-center font-bold">Remaining Balance: <input id=""> </h1>
+                </form>
+            </div>
+        </section>
+    </main>
+
 </body>
 
 </html>
